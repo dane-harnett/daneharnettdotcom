@@ -3,7 +3,7 @@
   bottom: 0;
   left:0;
   background-image: url(/profile.png);
-  background-size: 360px;
+  background-size: 270px 360px;
   background-repeat: no-repeat;
   background-position: bottom left;
   height: 100vh;
@@ -13,7 +13,7 @@
 
 @media (max-width: 600px) {
   .profile {
-    background-size: 360px;
+    background-size: 270px 360px;
   }
 }
 
