@@ -1,65 +1,65 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <div className={styles.profile}></div>
       <Head>
-        <title>Create Next App</title>
+        <title>Dane Harnett</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>Dane Harnett</h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Product developer trying to build cool software while learning new
+          stuff along the way. #GrowthAndExcellence
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/about-me" className={styles.card}>
+            <h3>About me &rarr;</h3>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="/my-projects" className={styles.card}>
+            <h3>My projects &rarr;</h3>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://youtube.com/daneharnett"
+            target="_blank"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h3>YouTube &rarr;</h3>
+          </a>
+
+          <a
+            href="http://twitch.tv/daneharnett"
+            target="_blank"
+            className={styles.card}
+          >
+            <h3>Twitch &rarr;</h3>
+          </a>
+
+          <a
+            href="https://github.com/dane-harnett"
+            target="_blank"
+            className={styles.card}
+          >
+            <h3>GitHub &rarr;</h3>
+          </a>
+
+          <a
+            href="https://twitter.com/daneharnett"
+            target="_blank"
+            className={styles.card}
+          >
+            <h3>Twitter &rarr;</h3>
           </a>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
-  )
+  );
 }
